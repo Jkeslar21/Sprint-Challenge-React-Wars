@@ -10,6 +10,9 @@ class CharInfo extends Component {
             <strong>Eye Color:</strong> {this.props.char.eye_color}<br />
             <strong>Gender:</strong> {this.props.char.gender}<br />
           </div>
+          <div className='starwarsLogo'>
+            <img src='http://i63.tinypic.com/16befdd.png'></img>
+          </div>
         </div>
     );
   }

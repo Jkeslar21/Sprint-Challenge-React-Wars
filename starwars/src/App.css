@@ -10,10 +10,15 @@
   background-color: lightgrey;
   margin: 5% auto;
   opacity: .5;
-  max-width: 300px;
+  max-width: 350px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-around;
+
 }
 .charCard:hover{
   opacity: 1;
+  border: 2px solid white;
 }
 .charText{
 text-align: start;
@@ -21,4 +26,10 @@ padding: 3%;
 }
 strong{
   color: #2f4f4f;
+}
+.starwarsLogo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
 }
