@@ -25,12 +25,16 @@ In this challenge, create a web page that presents a styled list of Star Wars ch
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 - [ ] What is React JS and what problems does it try and solve? Support your answer with concepts introduced in class and from your personal research on the web.
+React JS is a User Interface library that is used to create complex, rich user interfaces.  React is reactive to the state.  When state changes the React's render function gets called again, making it reactive.  Basically instead of refreshing the entire page and everything in it, React only renders the changes!  That's why it is so powerful.  React solves user interface complications and optimizes performance when building UI's for accessibility and performance.  Developers using React can create components, independent of one another and piece them together, sharing the necessary data between components to make projects easier than ever for developers and teams to build.
 
 - [ ] What does it mean to _think_ in react?
+To think in React simply means being able to logically view the projects layout in terms of components and data flow.
 
 - [ ] Describe state.
+State is the data our components in React have access to.
 
 - [ ] Describe props.
+Props are used to transfer data from one component's state to a separate component and allow that separate component accessibility to that data.
 
 ## Project Set Up
 

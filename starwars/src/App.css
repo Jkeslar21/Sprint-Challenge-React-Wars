@@ -6,3 +6,30 @@
   text-shadow: 1px 1px 5px #fff;
 }
 /* write your parent styles in here for your App.js */
+.charCard{
+  background-color: lightgrey;
+  margin: 5% auto;
+  opacity: .5;
+  max-width: 400px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-around;
+
+}
+.charCard:hover{
+  opacity: 1;
+  border: 2px solid white;
+}
+.charText{
+text-align: start;
+padding: 3%;
+}
+strong{
+  color: #2f4f4f;
+}
+.starwarsLogo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
